@@ -5,6 +5,84 @@
 
     body {
         margin: 0;
+        font-family: "Roboto";
+        margin: auto;
+        scroll-behavior: smooth;
+    }
+
+    #navbar {
+      background-color: #ffffff;
+      font-size: 30px;
+
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: auto;
+    }
+
+
+    #navbar_n1 {
+      padding-top: 45px;
+      font-size: 30px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    #navbar_n2 {
+      font-size: 30px;
+      padding-right: 40px;
+      padding-top: 40px;
+      padding-left: 40px;
+    }
+
+    .otherlinks {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      text-decoration: none;
+    }
+
+    .otherlinks a:hover {
+      background-color: #FFD36E;
+      padding-bottom: 45px;
+    }
+
+    .otherlinks ul {
+      list-style: none;
+      display: flex;
+    }
+
+    .otherlink li {
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+
+    .otherlinks li:hover .submenu > li {
+      background-color: #FFD36E;
+      display: block;
+      top: 0px;
+    }
+
+    .submenu li {
+      display: none;
+      position: absolute;
+    }
+
+    .submenu{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+    }
+
+    .button {
+      padding-top: 50px;
+      padding-left: 40x;
+      padding-right: 40px;
+      text-decoration: none;
+      color: black;
     }
 
     .LDSP {
@@ -89,10 +167,11 @@
         border-radius: 20px;
       }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:500px) {
   .viewmore {
     margin-top: -7%;
   }
+}
 
 @media only screen and (min-width:768px) {
 
@@ -125,8 +204,8 @@
 
     #DavisLeadership {
         margin-bottom: -7%;
-        margin-left: 22%;
-        margin-right: 22%;
+        margin-left: 25%;
+        margin-right: 25%;
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
@@ -163,7 +242,6 @@
 
       .viewmore{
         margin-bottom: 30%;
-        margin-top: -5%;
         font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
@@ -176,10 +254,10 @@
         color: #000000;
         background: #FFD36E;
         border: none;
-        padding:10px;
+        padding:2% 5%;
         border-radius: 20px;
     }
 
 
 
-}
+  }
